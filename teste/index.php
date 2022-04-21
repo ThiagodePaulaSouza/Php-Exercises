@@ -10,12 +10,13 @@
 
 <body>
     <h1>
-        <form action="recebe_get.php" method="get">
+        <form method="post" action="recebe_post.php">
             <input type="text" name="nome" id="nome" placeholder="Digite seu nome..."><br/>
             <input type="text" name="idade" id="idade" placeholder="Digite seu idade..."><br/>
-            <hr><button type="submit">Enviar</button>
+            <hr><button type="submit">VAI LOGO</button>
 
         </form>
+        
     </h1>
 </body>
 
